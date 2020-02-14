@@ -52,3 +52,6 @@ twistd.log
 
 # Celery
 celerybeat-schedule.db
+
+.env
+var
