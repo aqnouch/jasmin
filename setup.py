@@ -56,7 +56,7 @@ setup(
     license="Apache v2.0",
     description=('Jasmin is a very complete open source SMS Gateway '
                  'with many enterprise-class features.'),
-    long_description=open('README.rst', 'r').read(),
+    long_description=open('README.md', 'r').read(),
     keywords=['jasmin', 'sms', 'messaging', 'smpp', 'smsc', 'smsgateway'],
     packages=find_packages(),
     scripts=['jasmin/bin/jasmind.py', 'jasmin/bin/interceptord.py', 'jasmin/bin/dlrd.py', 'jasmin/bin/dlrlookupd.py'],
