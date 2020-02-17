@@ -7,7 +7,8 @@ services:
     container_name: jasmine-${COMPOSE_PROJECT_NAME}
     restart: always
     volumes:
-      - .:/app
+      - ./var/log/jasmin:/var/log/jasmin
+      - ./etc/jasmin:/etc/jasmin
     ports:
       - 2775:2775
       - 8990:8990
