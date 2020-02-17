@@ -54,4 +54,4 @@ twistd.log
 celerybeat-schedule.db
 
 .env
-var
+/etc/jasmin/jasmin.cfg
